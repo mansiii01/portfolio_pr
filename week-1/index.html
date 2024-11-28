@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.4.0/remixicon.css" integrity="sha512-hH7VMMVfPgfkpYx2GazOEG6RrYM+y8cS7FzccwBTWQeyhPv01XYk0MVcuhh4EAimOELWvqKjhNwes/UsYoyN6w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- Added jQuery -->
+    <title>Responsive Toggle Menu</title>
+</head>
+<body>
+
+<div class="right" style="display:none;"> <!-- Hide initially -->
+    <i id="cls" class="fa-solid fa-xmark"></i><br><br>
+    <ul  class="font">
+      <a href="#" style="color: orangered;">Home</a>
+      <a href="#">Shop</a>
+      <a href="#">Ajmal Studio</a>
+      <a href="#">Gifting</a>
+      <a href="">About</a>
+      <a href="">Our Stores</a>
+      <a href="">Press & Media</a>
+      <a href="">Order Tracking</a>
+    </ul>
+</div>
+
+<header>
+    <div class="logo">
+      <img src="https://in.ajmal.com/cdn/shop/files/AJMAL-LOGO3.png?v=1721841317" alt="">
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <a href="#">Home</a>
+      <a href="#">Shop</a>
+      <a href="#">Ajmal Studio</a>
+      <a href="#">Gifting</a>
+      <a href="">About</a>
+      <a href="">Our Stores</a>
+      <a href="">Press & Media</a>
+      <a href="">Order Tracking</a>
+    </ul>
+    <div class="btn">
+        <i class="ri-twitter-fill"></i>
+        <i class="ri-facebook-fill"></i>
+        <i class="ri-instagram-line"></i>
+    </div>
+    <i id="menu" class="ri-menu-line"></i>
+</header>
+
+<div class="slider">
+    <div class="slides">
+        <img src="https://in.ajmal.com/cdn/shop/files/Signature_series.jpg?v=1728134513" alt="Image 1">
+        <img src="https://in.ajmal.com/cdn/shop/files/Diwali-2024.jpg?v=1728903959" alt="Image 2">
+        <img src="https://in.ajmal.com/cdn/shop/files/Royal-series.jpg?v=1724219307" alt="Image 3">
+        <!-- Add more images as needed -->
+    </div>
+    <!-- <button class="prev" onclick="prevSlide()">&#10094;</button>
+    <button class="next" onclick="nextSlide()">&#10095;</button> -->
+</div>
+
+
+<section class="new-arrivals">
+    <h2>New Arrivals</h2>
+    <div class="product-grid">
+        <div class="product-card">
+            <div class="product-badge">NEW</div>
+            <img src="https://in.ajmal.com/cdn/shop/files/ROYAL-OUD-KUWAITI_CONCENTRATED_10ML_1.jpg?v=1723816827" alt="Product 1">
+            <h3>Aristocrat Coastal Eau De Parfum 75ML For Men</h3>
+            <p class="price">₹8,000.00</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <div class="product-badge">NEW</div>
+            <img src="https://in.ajmal.com/cdn/shop/files/AND-MIST_GIFTSET_200ML_1_dda79732-129d-40d0-a97b-474e050c6c85.jpg?v=1723456284" alt="Product 2">
+            <h3>Autograph Eau De Parfum 100ML For Men</h3>
+            <p class="price">
+                <span class="original-price">₹1,500.00</span> ₹750.00 <span class="discount">50% Off</span>
+            </p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <div class="product-badge">NEW</div>
+            <img src="https://in.ajmal.com/cdn/shop/files/AUTOGRAPH_EDP_100ML_1.jpg?v=1725952490" alt="Product 3">
+            <h3>Royal Oud Kuwaiti Attar Perfume For Men</h3>
+            <p class="price">
+                <span class="original-price">₹1,299.00</span> ₹1,169.00 <span class="discount">10% Off</span>
+            </p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <div class="product-badge">NEW</div>
+            <img src="https://in.ajmal.com/cdn/shop/files/ARISTOCRAT_COASTAL_75ML_1.jpg?v=1728563072" alt="Product 4">
+            <h3>Royal Galaxy Attar  Perfume For Unisex</h3>
+            <p class="price">
+                <span class="original-price">₹1,299.00</span> ₹1,169.00 <span class="discount">10% Off</span>
+            </p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+    </div>
+</section>
+
+
+<div class="section2">
+    <div class="box1">
+        <h3>Global Best seller</h3>
+        <img src="https://cdn.shopify.com/s/files/1/0602/3197/5082/files/0.jpg?v=1728904826" alt="">
+    </div>
+    <div class="box1">
+        <h3>Best seller</h3>
+        <img src="https://cdn.shopify.com/s/files/1/0602/3197/5082/files/1.jpg?v=1728904826" alt="">
+    </div>
+    <div class="box1">
+        <h3>King of Oud</h3>
+        <img src="https://cdn.shopify.com/s/files/1/0602/3197/5082/files/2.jpg?v=1728904826" alt="">
+    </div>
+</div>
+
+<section class="new-arrivals">
+    <h2>Gifting</h2>
+    <div class="product-grid">
+        <div class="product-card">
+            <div class="product-badge">BEST SELLER</div>
+            <img src="https://in.ajmal.com/cdn/shop/files/OUD-AMBER-ROSE-TOBACCO-VANILLA_DEO_200ML_3.png?v=1719209614" alt="Product 1">
+            <h3>Aristocrat Coastal Eau De Parfum 75ML For Men</h3>
+            <p class="price">₹8,000.00</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <div class="product-badge">NEW</div>
+            <img src="https://in.ajmal.com/cdn/shop/files/ILLUSION_GIFTPACK2_250ML1.png?v=1719229946" alt="Product 2">
+            <h3>Autograph Eau De Parfum 100ML For Men</h3>
+            <p class="price">
+                <span class="original-price">₹1,500.00</span> ₹750.00 <span class="discount">50% Off</span>
+            </p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <div class="product-badge">NEW</div>
+            <img src="https://in.ajmal.com/cdn/shop/files/AND-EDP_GIFTSET_80ML_1.jpg?v=1724650703" alt="Product 3">
+            <h3>Royal Oud Kuwaiti Attar Perfume For Men</h3>
+            <p class="price">
+                <span class="original-price">₹1,299.00</span> ₹1,169.00 <span class="discount">10% Off</span>
+            </p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <div class="product-badge">NEW</div>
+            <img src="https://in.ajmal.com/cdn/shop/files/DISCOVER_GIFT_SET_1.jpg?v=1719820116" alt="Product 4">
+            <h3>Royal Galaxy Attar  Perfume For Unisex</h3>
+            <p class="price">
+                <span class="original-price">₹1,299.00</span> ₹1,169.00 <span class="discount">10% Off</span>
+            </p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+    </div>
+</section>
+<br><br><br>
+<center>
+<section class="fragrance-section">
+    <h1>From Farms To Fragrances. A Journey Of 7 Decades And Thousands Of Miles.</h1>
+    <p>
+        From Assam, India to the world. That’s the arc of our story: The inspiring journey of our founder Late Haji Ajmal Ali.
+        Born in a family of rice farmers, hailing from Alinagar – a small village located in Hojai, Assam, India – he realized at
+        a very young age that agriculture would not be able to provide enough to sustain himself and his family. He decided to try
+        out the oudh trade, trusted the forest, and the seeds of Ajmal Perfumes were sown.
+    </p>
+    <button class="discover-button">Discover all</button>
+</section>
+</center>
+<br><br>
+
+<section class="new-arrivals">
+    <h2>Trending Now</h2>
+    <div class="product-grid">
+        <div class="product-card">
+            <div class="product-badge">BEST SELLER</div>
+            <img src="https://in.ajmal.com/cdn/shop/files/ELEGANZA_EDP_100ML_1.png?v=1719224645" alt="Product 1">
+            <h3>Aristocrat Coastal Eau De Parfum 75ML For Men</h3>
+            <p class="price">₹8,000.00</p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            
+            <img src="https://in.ajmal.com/cdn/shop/files/FACIN8_EDP_100ML_1.png?v=1719224602" alt="Product 2">
+            <h3>Autograph Eau De Parfum 100ML For Men</h3>
+            <p class="price">
+                <span class="original-price">₹1,500.00</span> ₹750.00 <span class="discount">50% Off</span>
+            </p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <div class="product-badge">BEST SELLER</div>
+            <img src="https://in.ajmal.com/cdn/shop/files/GIANNA_EDP_100ML_1.jpg?v=1719816226" alt="Product 3">
+            <h3>Royal Oud Kuwaiti Attar Perfume For Men</h3>
+            <p class="price">
+                <span class="original-price">₹1,299.00</span> ₹1,169.00 <span class="discount">10% Off</span>
+            </p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+            <div class="product-badge">BEST SELLER</div>
+            <img src="https://in.ajmal.com/cdn/shop/files/OUDMUSK_EDP_100ML_1.png?v=1719225681" alt="Product 4">
+            <h3>Royal Galaxy Attar  Perfume For Unisex</h3>
+            <p class="price">
+                <span class="original-price">₹1,299.00</span> ₹1,169.00 <span class="discount">10% Off</span>
+            </p>
+            <button class="add-to-cart">ADD TO CART</button>
+        </div>
+    </div>
+</section>
+
+
+<footer class="footer">
+    <div class="footer-signup">
+        <h2>Signup To Receive Offers & Updates</h2>
+        <div class="email-input">
+            <input type="email" placeholder="Enter your email...">
+            <button type="submit"><i class="fa-solid fa-paper-plane"></i></button>
+        </div>
+    </div>
+    <hr>
+    <div class="footer-content">
+        <div class="follow-us">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+                <a href="#"><span>📷</span></a>
+                <a href="#"><span>📘</span></a>
+                <a href="#"><span>📌</span></a>
+                <a href="#"><span>🐦</span></a>
+            </div>
+            <div class="footer-links">
+                <a href="#">Contact Us</a>
+                <a href="#">Privacy</a>
+                <a href="#">Term And Conditions</a>
+                <a href="#">Order Tracking</a>
+                <a href="#">Return Policy</a>
+            </div>
+        </div>
+
+        <div class="contact-us">
+            <h3>Contact Us</h3>
+            <p>If you'd like to get in touch, please send us a mail during regular business hours.</p>
+            <a href="mailto:ajmal.support@nha-world.com">ajmal.support@nha-world.com</a>
+        </div>
+    </div>
+
+</footer>
+
+
+
+
+
+<script>
+    $(document).ready(function(){
+        $('#menu').click(function(){
+            $('.right').toggle();  
+        });
+        $('#cls').click(function(){
+            $('.right').toggle(); 
+        });
+    });
+</script>
+
+</body>
+</html>
+<script src="index.js"></script>
