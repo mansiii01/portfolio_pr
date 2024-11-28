@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    height: 80px;
+    width: 100%;
+    /* border: 1px solid; */
+    border-top: 8px solid #fec82f;
+}
+header img{
+    margin-top: 14px;
+    margin-left: 110px;
+}
+header nav{
+    height: 70px;
+    width: 38%;
+    /* border: 2px solid; */
+    float: right;
+    margin-right: 280px;
+}
+header nav a{
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 70px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    margin-left: 38px;
+}
+header nav i{
+    font-size: 25px;
+    font-weight: 700;
+    color: gray;
+    margin-left: 40px;
+}
+header button{
+    margin-left: 140vh;
+    position: absolute;
+    height: 72px;
+    width: 250px;
+    background-color: #040f2e;
+    border: 1px solid #040f2e;
+    font-size: 18px;
+    color: #fec82f;
+    font-weight: 400;
+}
+
+
+section{
+    height: 251px;
+    width: 100%;
+    background-image: linear-gradient(rgba(82, 81, 81, 0.5),rgba(27, 27, 27, 0.5)) , url(h1_hero1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: cover;
+}
+section .m1{
+    height: 250px;
+    width: 600px;
+    background-color: #040f2e;
+    opacity: 0.8;
+    margin-left: 120px;
+}
+section .m1 h3{
+    font-size: 50px;
+    font-family: 'Shippori Mincho', serif;
+    color: white;
+    margin-left: 70px;
+    position: absolute;
+    margin-top: 80px;
+}
+
+
+.sec2{
+    height: 450px;
+    width: 1270px;
+    /* border: 1px solid; */
+    margin-top: 120px;
+    margin-left: 8%;
+    background-color: #e8eaed;
+}
+
+
+.sec3{
+    height: 750px;
+    width: 100%;
+    display: flex;
+}
+.sec3 .text{
+    height: 650px;
+    width: 59%;
+    margin-top: 100px;
+    margin-left: 8%;
+}
+.sec3 .text h3{
+    font-family: 'Shippori Mincho', serif;
+    font-size: 35px;
+    font-weight: 520;
+
+}
+.sec3 .text textarea::placeholder{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.sec3 .text input{
+    height: 50px;
+    width: 431px;
+    border: 1px solid rgb(195, 194, 194);
+}
+.sec3 .text input::placeholder{
+    text-transform: capitalize;
+    padding-left: 20px;
+}
+.sec3 .text button{
+    height: 58px;
+    width: 130px;
+    background: none;
+    border: 1px solid #fec82f;
+    font-size: 18px;
+    font-family: 'Shippori Mincho', serif;
+    color: #fec82f;
+
+}
+
+.sec3 .text2{
+    height: 300px;
+    width: 300px;
+    margin-top: 160px;
+    margin-left: 110px;
+
+}
+.sec3 .text2 .t1{
+    height: 80px;
+    width: 300px;
+}
+.sec3 .text2 .t1 i{
+    font-size: 35px;
+    color: gray;
+    position: absolute;
+}
+.sec3 .text2 .t1 h4{
+    margin-left: 45px;
+    margin-top: 10px;
+    font-family: 'Shippori Mincho', serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.sec3 .text2 .t1 p{
+    margin-left: 45px;
+    color: rgb(156, 153, 153);
+    font-weight: 100;
+}
+
+
+/* fotter */
+footer{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    /* border: 1px solid; */
+    margin-top: 30px;
+}
+footer .f1{
+    height: 300px;
+    width: 21%;
+    translate: 105px 40px;
+    /* border: 1px solid; */
+}
+footer .f1 p{
+    color: rgb(29, 45, 74);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    font-weight: 200;
+    font-size: 18px;
+    word-spacing: 2px;
+    line-height: 1.5;
+}
+footer .f1 i{
+    font-size: 28px;
+    margin: 8px;
+    color: rgb(163, 163, 163);
+}
+footer .f2{
+    height: 300px;
+    width: 15%;
+    translate: 105px 40px;
+    /* border: 1px solid; */
+}
+footer  h4{
+    font-size: 22px;
+    font-weight: 400;
+    margin-left: 22px;
+    color: rgb(11, 9, 37);
+}
+footer li{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(95, 95, 95);
+    list-style: none;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-left: 22px;
+}
+footer .f1 a{
+    margin-left: 20px;
+    color: black;
+    line-height: 3.5;
+    font-size: 15px;
+}
+footer .f1 h1{
+    margin-left: 22px;
+    font-size: 25px;
+    color: rgb(95,98,109);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

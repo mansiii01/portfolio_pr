@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#nav_width{
+    height: 80px;
+    width: 85%;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-between;
+}
+#navbarSupportedContent{
+    width: 10%;
+}
+#margin_nav{
+    /* border: 2px solid; */
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    font-weight: 400;
+}
+.nav-item a{
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #002050;
+    font-weight: 600;
+}
+#img1{
+    height: 700px;
+    width: 100%;
+    background: url('https://preview.codeless.co/picante/default/wp-content/uploads/2018/05/slide03-compressed-2.jpg');
+    background-image: cover;
+    background-position: center;
+    background-size: cover;
+}
+.text{
+    height: 500px;
+    width: 60%;
+    background: url('https://preview.codeless.co/picante/default/wp-content/uploads/2018/05/tasty.png');
+    background-size: 100% 100%;
+    margin-top: 100px;
+}
+#img2{
+    height: 700px;
+    width: 100%;
+    background: url('https://preview.codeless.co/picante/default/wp-content/uploads/2018/07/home03_03-compressed.jpg');
+    background-image: cover;
+    background-position: center;
+    background-size: cover;
+}
+#img3{
+    height: 700px;
+    width: 100%;
+    background: url('https://preview.codeless.co/picante/default/wp-content/uploads/2018/07/home03_02-compressed.jpg');
+    background-image: cover;
+    background-position: center;
+    background-size: cover;
+}
+#sec1 .row .col-lg-6 h3{
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    color: #966589;
+    margin-top: 100px;
+}
+#sec1 .row .col-lg-6 h2{
+    font-size: 50px;
+    letter-spacing: 7px;
+    margin-top: -10px;
+}
+#sec1 .row .col-lg-6 h4{
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: italic;
+    color: #7a8a93;
+    width: 68%;
+    line-height: 1.5;
+}
+#sec2{
+    width: 95%;
+}
+#b1{
+    /* width: 32.6%; */
+    height: 500px;
+    background: url('https://preview.codeless.co/picante/default/wp-content/uploads/2018/05/recipes01-compressed.jpg');
+    background-size: cover;
+}
+#b2{
+    /* width: 32.6%; */
+    height: 500px;
+    background: url('https://preview.codeless.co/picante/default/wp-content/uploads/2018/05/recipes02-compressed.jpg');
+    background-size: cover;
+}
+#b3{
+    /* width: 32.6%; */
+    height: 500px;
+    background: url('https://preview.codeless.co/picante/default/wp-content/uploads/2018/05/recipes03-compressed.jpg');
+    background-size: cover;
+}
+#sec2 h3{
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    color: #966589;
+    margin-top: 100px;
+}
+#sec2 h2{
+    font-size: 50px;
+    letter-spacing: 7px;
+    margin-top: -10px;
+}
+
+.card img{
+    height: 100px;
+    width: 100px;
+}
+.card-body h5{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #966589;
+    font-weight: 500;
+}
+.card-body p{
+    font-size: 20px;
+}
+#sec3{
+    height: 600px;
+    background: url('https://preview.codeless.co/picante/default/wp-content/uploads/2018/05/map_image-compressed.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
+#tx p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 60%;
+    color: gray;
+}
+#footer{
+    height: 550px;
+}
+#footer h2{
+    font-size: 30px;
+    letter-spacing: 7px;
+    color: white;
+    margin-top: 50px;
+}
+#footer p{
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: italic;
+    color: #73848e;
+    width: 38%;
+    font-size: 20px;
+    line-height: 1.8;
+}
+#footer input{
+    height: 52px;
+    width: 400px;
+    padding-left: 20px;
+}
